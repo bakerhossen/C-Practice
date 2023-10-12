@@ -9,14 +9,10 @@ int main(){
         if(e > b){
             if( 2 * b <= e){
                 ans += b; 
-                e = e / 2;
-                b = b - b;
             }   
         }
         else{
             ans += e / 2;
-            e = e / 2;
-            b = b - e;
         }
     }
     else{
